@@ -1,0 +1,37 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(231, 110, 197, 0.9248949579831933) 0%, rgba(170, 223, 233, 1) 49%);
+    margin-top: 200px;
+}
+
+.smile {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.all {
+    /* border: 2px solid red; */
+    width: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    backdrop-filter: blur(4px);
+    background: rgba(255,255,255,0.4);
+    box-shadow: 2px 2px 20ps rgb(219, 228, 228);
+}
+#btn1{
+    margin-top: 30px;   
+    background: rgba(170, 223, 233, 1);
+    border-radius: 10px ;
+    padding: 5px 10px ;
+    border: 2px solid yellow;
+}
+.one{
+    cursor: pointer;
+
+}
+.one:hover{
+    background: white;
+}
+
